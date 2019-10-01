@@ -91,6 +91,10 @@ INSERT INTO `lud_user` (`id`, `identifier`, `pseudo`, `password`, `avatar_url`, 
 History Log
 =============
 
+- 1.1.0 -- 2019-10-01
+
+    - add Light_DatabaseDumpUtility->dumpTable returnAsString option
+    
 - 1.0.0 -- 2019-10-01
 
     - initial commit

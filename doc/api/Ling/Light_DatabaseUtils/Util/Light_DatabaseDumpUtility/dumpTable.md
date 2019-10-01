@@ -16,7 +16,7 @@ Description
 ================
 
 
-public [Light_DatabaseDumpUtility::dumpTable](https://github.com/lingtalfi/Light_DatabaseUtils/blob/master/doc/api/Ling/Light_DatabaseUtils/Util/Light_DatabaseDumpUtility/dumpTable.md)(string $table, string $targetDir, array $options = []) : void
+public [Light_DatabaseDumpUtility::dumpTable](https://github.com/lingtalfi/Light_DatabaseUtils/blob/master/doc/api/Ling/Light_DatabaseUtils/Util/Light_DatabaseDumpUtility/dumpTable.md)(string $table, string $targetDir, array $options = []) : mixed
 
 
 
@@ -34,6 +34,9 @@ The available options are:
 - fileName: string=null, the file name (the extension should be included too)
 - useNullForAutoIncrementedKey: bool=false.
      If true, the generated insert statements will use the null value if the column is an auto-incremented column.
+- returnAsString: bool=false.
+     If true, the method will not write the file to the filesystem, but instead return it
+     as a string.
 
 
 
@@ -58,7 +61,7 @@ Parameters
 Return values
 ================
 
-Returns void.
+Returns mixed.
 
 
 Exceptions thrown
@@ -74,7 +77,7 @@ Exceptions thrown
 
 Source Code
 ===========
-See the source code for method [Light_DatabaseDumpUtility::dumpTable](https://github.com/lingtalfi/Light_DatabaseUtils/blob/master/Util/Light_DatabaseDumpUtility.php#L66-L139)
+See the source code for method [Light_DatabaseDumpUtility::dumpTable](https://github.com/lingtalfi/Light_DatabaseUtils/blob/master/Util/Light_DatabaseDumpUtility.php#L70-L147)
 
 
 See Also

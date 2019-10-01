@@ -54,6 +54,9 @@ class Light_DatabaseDumpUtility
      * - fileName: string=null, the file name (the extension should be included too)
      * - useNullForAutoIncrementedKey: bool=false.
      *      If true, the generated insert statements will use the null value if the column is an auto-incremented column.
+     * - returnAsString: bool=false.
+     *      If true, the method will not write the file to the filesystem, but instead return it
+     *      as a string.
      *
      *
      *
@@ -61,6 +64,7 @@ class Light_DatabaseDumpUtility
      * @param string $table
      * @param string $targetDir
      * @param array $options
+     * @return mixed
      * @throws \Exception
      */
     public function dumpTable(string $table, string $targetDir, array $options = [])
@@ -69,6 +73,7 @@ class Light_DatabaseDumpUtility
 
         $fileName = $options['fileName'] ?? null;
         $useNullForAutoIncrementedKey = $options['useNullForAutoIncrementedKey'] ?? false;
+        $returnAsString = $options['returnAsString'] ?? false;
 
         if (null === $fileName) {
             $fileName = $table . ".sql";
@@ -134,6 +139,9 @@ class Light_DatabaseDumpUtility
         $s .= ';' . PHP_EOL;
 
 
+        if (true === $returnAsString) {
+            return $s;
+        }
         $file = $targetDir . "/$fileName";
         FileSystemTool::mkfile($file, $s);
     }

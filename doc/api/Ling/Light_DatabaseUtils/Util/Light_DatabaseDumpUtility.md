@@ -30,7 +30,7 @@ class <span class="pl-k">Light_DatabaseDumpUtility</span>  {
 - Methods
     - public [__construct](https://github.com/lingtalfi/Light_DatabaseUtils/blob/master/doc/api/Ling/Light_DatabaseUtils/Util/Light_DatabaseDumpUtility/__construct.md)() : void
     - public [setContainer](https://github.com/lingtalfi/Light_DatabaseUtils/blob/master/doc/api/Ling/Light_DatabaseUtils/Util/Light_DatabaseDumpUtility/setContainer.md)([Ling\Light\ServiceContainer\LightServiceContainerInterface](https://github.com/lingtalfi/Light/blob/master/doc/api/Ling/Light/ServiceContainer/LightServiceContainerInterface.md) $container) : void
-    - public [dumpTable](https://github.com/lingtalfi/Light_DatabaseUtils/blob/master/doc/api/Ling/Light_DatabaseUtils/Util/Light_DatabaseDumpUtility/dumpTable.md)(string $table, string $targetDir, array $options = []) : void
+    - public [dumpTable](https://github.com/lingtalfi/Light_DatabaseUtils/blob/master/doc/api/Ling/Light_DatabaseUtils/Util/Light_DatabaseDumpUtility/dumpTable.md)(string $table, string $targetDir, array $options = []) : mixed
 
 }
 
