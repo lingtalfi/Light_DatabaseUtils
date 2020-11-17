@@ -24,7 +24,7 @@ private [RowDuplicator::getDependentTables](https://github.com/lingtalfi/Light_D
 Returns an array of dependent tables.
 
 A dependent table is a table that contains rows owned by the entity represented by the given main table.
-The concept of owning is described in more details in [the deep duplication section of the duplicate rows conception notes](https://github.com/lingtalfi/Light_DatabaseUtils/blob/master/doc/pages/duplicate-row-conception.md) document.
+The concept of owning is described in more details in [the deep duplication section of the duplicate rows conception notes](https://github.com/lingtalfi/Light_DatabaseUtils/blob/master/doc/pages/duplicate-row.conception.md) document.
 
 
 
