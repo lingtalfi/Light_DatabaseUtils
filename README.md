@@ -92,6 +92,10 @@ INSERT INTO `lud_user` (`id`, `identifier`, `pseudo`, `password`, `avatar_url`, 
 History Log
 =============
 
+- 1.1.4 -- 2020-11-17
+
+    - update RowDuplicator->onInsertAfter method, add reference to the old row and main table
+    
 - 1.1.3 -- 2020-11-17
 
     - fix doc link
