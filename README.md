@@ -92,6 +92,10 @@ INSERT INTO `lud_user` (`id`, `identifier`, `pseudo`, `password`, `avatar_url`, 
 History Log
 =============
 
+- 1.1.6 -- 2020-12-04
+
+    - Add lpi-deps.byml file
+
 - 1.1.5 -- 2020-11-24
 
     - update Light_DatabaseDumpUtility->dumpTable, add ignore and disableFkCheck options
