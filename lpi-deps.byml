@@ -1,55 +1,71 @@
 1.0.0: 
-    - Ling:Light:0.69.16
-    - Ling:Bat:1.288
-    - Ling:Light_DatabaseInfo:1.12.1
-    - Ling:Light_Database:1.14.9
-    - Ling:ArrayToString:1.4.0
-    - Ling:SimplePdoWrapper:1.30.14
+    - Ling:Light:0.69.17
+    - Ling:Bat:1.292
+    - Ling:Light_DatabaseInfo:1.12.2
+    - Ling:Light_Database:1.14.10
+    - Ling:ArrayToString:1.4.1
+    - Ling:SimplePdoWrapper:1.30.15
 
 1.1.0: 
-    - Ling:Light:0.69.16
-    - Ling:Bat:1.288
-    - Ling:Light_DatabaseInfo:1.12.1
-    - Ling:Light_Database:1.14.9
-    - Ling:ArrayToString:1.4.0
-    - Ling:SimplePdoWrapper:1.30.14
+    - Ling:Light:0.69.17
+    - Ling:Bat:1.292
+    - Ling:Light_DatabaseInfo:1.12.2
+    - Ling:Light_Database:1.14.10
+    - Ling:ArrayToString:1.4.1
+    - Ling:SimplePdoWrapper:1.30.15
 
 1.1.1: 
-    - Ling:Light:0.69.16
-    - Ling:Bat:1.288
-    - Ling:Light_DatabaseInfo:1.12.1
-    - Ling:Light_Database:1.14.9
-    - Ling:ArrayToString:1.4.0
-    - Ling:SimplePdoWrapper:1.30.14
+    - Ling:Light:0.69.17
+    - Ling:Bat:1.292
+    - Ling:Light_DatabaseInfo:1.12.2
+    - Ling:Light_Database:1.14.10
+    - Ling:ArrayToString:1.4.1
+    - Ling:SimplePdoWrapper:1.30.15
 
 1.1.2: 
-    - Ling:Light:0.69.16
-    - Ling:Bat:1.288
-    - Ling:Light_DatabaseInfo:1.12.1
-    - Ling:Light_Database:1.14.9
-    - Ling:ArrayToString:1.4.0
-    - Ling:SimplePdoWrapper:1.30.14
+    - Ling:Light:0.69.17
+    - Ling:Bat:1.292
+    - Ling:Light_DatabaseInfo:1.12.2
+    - Ling:Light_Database:1.14.10
+    - Ling:ArrayToString:1.4.1
+    - Ling:SimplePdoWrapper:1.30.15
 
 1.1.3: 
-    - Ling:Light:0.69.16
-    - Ling:Bat:1.288
-    - Ling:Light_DatabaseInfo:1.12.1
-    - Ling:Light_Database:1.14.9
-    - Ling:ArrayToString:1.4.0
-    - Ling:SimplePdoWrapper:1.30.14
+    - Ling:Light:0.69.17
+    - Ling:Bat:1.292
+    - Ling:Light_DatabaseInfo:1.12.2
+    - Ling:Light_Database:1.14.10
+    - Ling:ArrayToString:1.4.1
+    - Ling:SimplePdoWrapper:1.30.15
 
 1.1.4: 
-    - Ling:Light:0.69.16
-    - Ling:Bat:1.288
-    - Ling:Light_DatabaseInfo:1.12.1
-    - Ling:Light_Database:1.14.9
-    - Ling:ArrayToString:1.4.0
-    - Ling:SimplePdoWrapper:1.30.14
+    - Ling:Light:0.69.17
+    - Ling:Bat:1.292
+    - Ling:Light_DatabaseInfo:1.12.2
+    - Ling:Light_Database:1.14.10
+    - Ling:ArrayToString:1.4.1
+    - Ling:SimplePdoWrapper:1.30.15
 
 1.1.5: 
-    - Ling:Light:0.69.16
-    - Ling:Bat:1.288
-    - Ling:Light_DatabaseInfo:1.12.1
-    - Ling:Light_Database:1.14.9
-    - Ling:ArrayToString:1.4.0
-    - Ling:SimplePdoWrapper:1.30.14
+    - Ling:Light:0.69.17
+    - Ling:Bat:1.292
+    - Ling:Light_DatabaseInfo:1.12.2
+    - Ling:Light_Database:1.14.10
+    - Ling:ArrayToString:1.4.1
+    - Ling:SimplePdoWrapper:1.30.15
+
+1.1.6: 
+    - Ling:Light:0.69.17
+    - Ling:Bat:1.292
+    - Ling:Light_DatabaseInfo:1.12.2
+    - Ling:Light_Database:1.14.10
+    - Ling:ArrayToString:1.4.1
+    - Ling:SimplePdoWrapper:1.30.15
+
+1.1.7: 
+    - Ling:Light:0.69.18
+    - Ling:Bat:1.293
+    - Ling:Light_DatabaseInfo:1.12.3
+    - Ling:Light_Database:1.14.11
+    - Ling:ArrayToString:1.4.2
+    - Ling:SimplePdoWrapper:1.30.15

@@ -92,6 +92,10 @@ INSERT INTO `lud_user` (`id`, `identifier`, `pseudo`, `password`, `avatar_url`, 
 History Log
 =============
 
+- 1.1.7 -- 2020-12-08
+
+    - Fix lpi-deps not using natsort.
+
 - 1.1.6 -- 2020-12-04
 
     - Add lpi-deps.byml file
